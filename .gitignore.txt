@@ -1,9 +1,0 @@
-__pycache__/
-*.pyc
-dataset/
-model/
-*.h5
-*.pkl
-*.npy
-.DS_Store
-static/uploads/
