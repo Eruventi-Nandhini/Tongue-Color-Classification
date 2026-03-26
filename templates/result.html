@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        .result-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .result-box {
+            display: inline-block;
+            padding: 10px;
+            border: 2px solid #000;
+            background-color: #f8f9fa;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-container">
+        <img src="{{ image_path }}" alt="Predicted Image" width="600">
+        <div class="result-box">
+            <p>Predicted Color: {{ color }}</p>
+            <p>Predicted Disease: {{ disease }}</p>
+        </div>
+    </div>
+</body>
+</html>
