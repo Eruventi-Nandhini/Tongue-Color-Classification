@@ -1,1 +1,7 @@
- 
+dataset/
+model/
+__pycache__/
+*.h5
+*.pkl
+*.npy
+*.pckl 
